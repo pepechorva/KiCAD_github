@@ -1,0 +1,156 @@
+(footprint "TSSP770xx"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bf4652aa-f0c1-40ac-ba4a-2a3953bb17be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TSSP770xx"
+		(at 0 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1117a6c4-1b47-4a68-8b82-847126a3ed42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05e4f7b0-7476-44bd-9bd7-7f9e3e454dd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65856a72-bc8a-4787-ae67-37ee7aa6ff52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.4 0)
+		(end 3.4 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6894a9e0-73e6-467f-b502-583bac33bb1c")
+	)
+	(fp_line
+		(start -3.537788 3.176062)
+		(end 3.672847 3.169803)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9d4839ec-e53e-42e2-9f30-ac0325823bd0")
+	)
+	(fp_line
+		(start -3.537554 -0.199565)
+		(end -3.537788 3.176062)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "69fc032f-ea15-4087-ae0b-879f4b2ddcff")
+	)
+	(fp_line
+		(start -3.537554 -0.199565)
+		(end 3.673081 -0.205824)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1a94e67-11d5-4ba3-9676-975a70bc67ec")
+	)
+	(fp_line
+		(start 3.673081 -0.205824)
+		(end 3.672847 3.169803)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "06744164-0224-48d4-a3a9-52f76c45f233")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "06ceee71-7997-43d3-99c9-f54f0728c96b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.905 2 90)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "163cfc05-14e6-4557-9330-493c38fefa0b")
+	)
+	(pad "2" smd rect
+		(at -0.635 2 270)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f3fc2bb3-b341-4559-8604-7a5b642d3865")
+	)
+	(pad "3" smd rect
+		(at 0.635 2 90)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d08bd24c-3df2-4cc5-9f57-5b226a5e3c0f")
+	)
+	(pad "4" smd rect
+		(at 1.905 2 90)
+		(size 1.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bc12d272-eae9-4302-a62f-5c198c40b3b7")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_PEPECHORVA_GITHUB_LIBS}/3d-models/STEP_files/IR_receiver.shapes/82672Heimdall.stp"
+		(offset
+			(xyz 0 -1.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
