@@ -1,0 +1,34 @@
+# Excluir todo por defecto
+*
+
+# Excepciones para incluir archivos y carpetas específicos
+# Archivo .gitignore
+!.gitignore
+
+# Archivos de Licencia (esencial para CERN-OHL-S)
+# Asegúrate de tener un archivo 'LICENSE' o 'CERN-OHL-S.txt' en la raíz.
+!LICENSE-CERN-OHL-S
+
+
+# Carpeta de Modelos 3D Y su contenido
+!3d-models/
+!3d-models/**/*.step
+!3d-models/**/*.stp
+
+# Archivos de FreeCAD (.FCStd)
+!3d-models/FreeCAD_designs/*.FCStd
+!3d-models/STEP_files/*.step
+!3d-models/STEP_files/*.stp
+
+# Carpeta de Hoja de Dibujo (Drawingsheets)
+!drawingsheets/
+!drawingsheets/*.kicad_wks
+
+# Carpeta de Footprints (Huellas)
+!footprints/
+!footprints/**/*.pretty/
+!footprints/**/*.pretty/*.kicad_mod
+
+# Carpeta de Símbolos
+!symbols/
+!symbols/**/*.kicad_sym
